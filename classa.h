@@ -1,6 +1,7 @@
 #ifndef CLASSA_H
 #define CLASSA_H
 
+
 #include "ClassB.h"
 
 class ClassB;
