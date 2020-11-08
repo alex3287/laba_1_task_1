@@ -1,7 +1,8 @@
-#include "classb.h"
+#include "classB.h"
+#include <iostream>
 
 ClassB::ClassB() : m_x(0) {}
-ClassB :: ~ClassB() {}
+ClassB :: ~ClassB() {std::cout<<"Destructor classB"<<std::endl;}
 //установить m_х
 void ClassB :: setX(const int x){m_x = x;}
 //получить значение т_х

@@ -1,10 +1,12 @@
 #include "classa.h"
+#include <iostream>
 
 ClassA::ClassA() : m_n(0) {}
 ClassA :: ~ClassA()
 {
     for (int j(0); j < m_n; j++)
         delete m_pB[j];
+    std::cout<<"Destructor classA"<<std::endl;
 }
 //вернуть количество частей
 const int ClassA :: getN() const {return m_n;}
