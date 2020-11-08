@@ -1,6 +1,6 @@
 #include <iostream>
-#include "classb.h"
-#include "classa.h"
+#include "classB.h"
+#include "classA.h"
 
 using namespace std;
 
@@ -55,5 +55,10 @@ int main()
 
     // с getB() не совсем понял как это работает
     cout<<"\nтут не очень понятно "<<a1.getB(y)<<endl;
+
+    //проверка вермени жизни объектов
+    ClassA a4, a5;
+    a4.add(45);
+
     return 0;
 }
